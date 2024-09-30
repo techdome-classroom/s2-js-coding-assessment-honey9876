@@ -3,7 +3,6 @@
  * @return {number}
  */
 var romanToInt = function(s) {
-    // Mapping of Roman numerals to their integer values
     const romanMap = {
         'I': 1,
         'V': 5,
@@ -13,16 +12,11 @@ var romanToInt = function(s) {
         'D': 500,
         'M': 1000
     };
-    
-    
     let result = 0;
     
     for (let i = 0; i < s.length; i++) {
-     
         const currentVal = romanMap[s[i]];
-        const nextVal = romanMap[s[i + 1]];
-
-      
+        const nextVal = romanMap[s[i + 1]]; 
         if (currentVal < nextVal) {
             result -= currentVal;
         } else {
