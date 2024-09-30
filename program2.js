@@ -19,13 +19,10 @@ var romanToInt = function(s) {
         const nextVal = romanMap[s[i + 1]]; 
         if (currentVal < nextVal) {
             result -= currentVal;
-        } else {
-          
+        } else {          
             result += currentVal;
         }
     }
-
     return result;
 };
-
 module.exports = { romanToInt };
