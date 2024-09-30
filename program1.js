@@ -21,7 +21,7 @@ var isValid = function(s) {
         
         }
     }
-    return stack.length
+    return stack.length === 0;
 };
     
 
