@@ -3,7 +3,8 @@
  * @return {boolean}
  */
 var isValid = function(s) {
-    l
+    let stack = [];
+    let maching
     
 };
 
