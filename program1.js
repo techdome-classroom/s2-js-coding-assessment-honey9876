@@ -4,7 +4,9 @@
  */
 var isValid = function(s) {
     let stack = [];
-    let machingBre
+    let machingBreackets = {
+        
+    }
     
 };
 
