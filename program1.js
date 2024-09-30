@@ -20,10 +20,11 @@ var isValid = function(s) {
             }
         
         }
-        
-}
+    }
+    return stack.length
+};
     
-}
+
 
 
 module.exports = { isValid };
